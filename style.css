@@ -111,3 +111,8 @@ footer{
 footer:hover{
     transform: translateY(-5px);
 }
+
+@media (max-width: 480px){
+    body{padding-left:0;}
+    .sidebar{position:relative;width:100%;height:auto;}
+}
